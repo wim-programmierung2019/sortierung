@@ -10,16 +10,16 @@ public class Main {
         // Implementieren Sie einen Algorithmus für Bubblesort in Java
         int[] unsortiert = new int[10];
         int[] sortiert = new int[10];   
-        unsortiert[0] = 10;   
+        unsortiert[0] = 48;   
         unsortiert[1] = 9;
-        unsortiert[2] = 8;
-        unsortiert[3] = 7;
-        unsortiert[4] = 6;
-        unsortiert[5] = 5;
-        unsortiert[6] = 4;
-        unsortiert[7] = 3;
-        unsortiert[8] = 2;
-        unsortiert[9] = 1;
+        unsortiert[2] = 37;
+        unsortiert[3] = 12;
+        unsortiert[4] = 24;
+        unsortiert[5] = 16;
+        unsortiert[6] = 95;
+        unsortiert[7] = 455;
+        unsortiert[8] = 162;
+        unsortiert[9] = 244;
         
         
         //Ausgabe unsortiert
@@ -29,9 +29,10 @@ public class Main {
                 System.out.println("Zahl an der Stelle " + i + " " + unsortiert[i]);   
             }        
 		
-		
+		//Aufruf der Methode
 		sortiert=bubblesort(unsortiert);
 		
+		//Ausgabe sortiert
 		System.out.println("Sortiert: ");
         for (int  i = 0; i< sortiert.length; i++)
             {
